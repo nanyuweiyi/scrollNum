@@ -8,6 +8,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18sp"
+        android:text="0"
         android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="速度、小数点位数可设置"/>
 
 </RelativeLayout>

@@ -14,8 +14,8 @@ import java.util.Random;
  * ================================================
  */
 public class NumAnim {
-    private static final int COUNTPERS = 500;   //每秒刷新多少次
-    private static final int mPoint = 2;         //小数点位数
+    private static final int COUNTPERS = 1000;   //每秒刷新多少次
+    private static final int mPoint = 0;         //小数点位数,整数设置为0即可
 
     public static void startAnim(TextView textV, float num) {
         if(num < 1){

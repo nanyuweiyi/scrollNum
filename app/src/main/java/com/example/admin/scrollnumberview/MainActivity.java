@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         //setmSpeed必须设置在startAnim之前,建议最后调用startAnim()
         NumAnim.builder()
-                .setmSpeed(400)           //数字越小刷新速度越快
+                .setmSpeed(500)           //数字越小刷新速度越快
                 .setmPoint(1)             //小数点位
                 .startAnim(tvShow, 999);  //第一个参数控件，第二个参数目标数字
     }
